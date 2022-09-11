@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(69, 66, 63);
+  margin-left: 40px;
+}
+body {
+  background-color: rgb(94, 94, 94);
+}
+.cards {
+  width: 1000px;
+  height: 550px;
+  background-color: #fff;
+  margin: 60px auto;
+  display: flex;
+  border-radius:5px;
+}
+.card_big_image{
+  width: 390px;
+  height: 550px;
+  border-radius:0 5px 5px 0;
+  margin-left: 210px;
+}
+.card_ong {
+  width: 400px;
+  padding: 20px;
+}
+.card_ong_title{
+  font-family: 'Space Mono';
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.card_ong_paragraph{
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-left: 30px;
+  color:rgb(158, 153, 153);
+}
+
+.card_right_p2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  color:rgb(158, 153, 153);
+}
+.card_item {
+  width: 510px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(255, 254, 254);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  border:0.5px solid silver;
+  margin-left: 30px;
+  color:rgb(158, 153, 153);
+}
+.card_item:hover {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border:none;
+  
+}
+.card_item a:hover {
+  color: rgb(3, 3, 3);
+}
+.card_img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.footer {
+  display: flex;
+ 
+  margin-top: 60px;
+}
+.footer_p {
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-left: 30px;
+  font-weight: 400;
+}
+.footer_p2 {
+  font-family: "Roboto";
+  font-size: 10px;
+  color: rgb(70, 68, 65);
+  margin-left: 30px;
+}
+.card_right_inp {
+  
+  color:rgb(158, 153, 153);
+  margin-left: 27%;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+}
+.footer__paragraph2{
+  font-size: 14px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(121, 120, 120);
+  position: relative;
+  left: 430px;
+  bottom: 17px;
+}
